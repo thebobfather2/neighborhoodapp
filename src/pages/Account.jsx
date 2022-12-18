@@ -1,5 +1,6 @@
 import React from 'react';
 import { UserAuth } from '../context/AuthContext';
+import "./Account.css";
 
 const Account = () => {
   const { logOut, user } = UserAuth();
@@ -13,12 +14,19 @@ const Account = () => {
   };
 
   return (
-    <div className='w-[300px] m-auto'>
-      <h1 className='text-center text-2xl font-bold pt-12'>Account</h1>
-      <div>
-        <p>Welcome, {user?.displayName}</p>
+    <div className='accountBox'>
+      <h1 className='hello'>Hello Neighbor!</h1>
+      <div className='accountInfo'> 
+        <p className='personalGreeting'>Welcome, {user?.displayName}</p>
+        <br></br>
+        <div className='updatesBox'>
+          <br></br>
+          <h2>PROTECTED CONTENT</h2>
+          <br></br>
+          <p>Sensitive information will be posted here.</p>
+        </div>
       </div>
-      <button onClick={handleSignOut} className='border py-2 px-5 mt-10'>
+      <button onClick={handleSignOut} className='logoutBtn'>
         Logout
       </button>
     </div>

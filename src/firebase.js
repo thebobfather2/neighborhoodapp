@@ -7,12 +7,14 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "YOUR FIREBASE API KEY",
-  authDomain: "YOUR FIREBASE AUTHDOMAIN",
-  projectId: "YOUR FIREBASE PROJECTID",
-  storageBucket: "YOUR FIREBASE STORAGE BUCKET",
-  messagingSenderId: "YOUR FIREBASE MESSAGESENDER ID",
-  appId: "YOUR FIREBASE APPID"
+  apiKey: "AIzaSyAkZkum45PvomzsnxR860bcmASqT3KaMYE",
+  authDomain: "neighborhood-fe092.firebaseapp.com",
+  databaseURL: "https://neighborhood-fe092-default-rtdb.firebaseio.com",
+  projectId: "neighborhood-fe092",
+  storageBucket: "neighborhood-fe092.appspot.com",
+  messagingSenderId: "646527279541",
+  appId: "1:646527279541:web:580ee2938b86bf0333b9fc",
+  measurementId: "G-DDDH1N8R2D"
 };
 
 // Initialize Firebase

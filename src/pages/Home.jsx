@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import "./Home.css";
 
 const Home = () => {
   return (
     <div>
-      <h1 className='text-center text-3xl font-bold py-8'>Home Page</h1>
+      <h1 className='welcome'>Welcome!</h1>
+      <h2 className='text-center text-xl font-bold py-8'>Sign in to view community updates!</h2>
     </div>
   )
 }

@@ -6,6 +6,7 @@ import { AuthContextProvider } from './context/AuthContext';
 import Account from './pages/Account';
 import Home from './pages/Home';
 import Signin from './pages/Signin';
+import Subscribe from './pages/Subscribe';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/signin' element={<Signin />} />
+          <Route path='/Subscribe' element={<Subscribe />} />
           <Route
             path='/account'
             element={
